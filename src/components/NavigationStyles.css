@@ -1,0 +1,11 @@
+nav {
+    background-color: #E9E9E9;
+    font-family: 'Poppins';
+    font-size: 1rem;
+}
+
+.navlogo {
+    margin-bottom: 9px;
+    width: 90px;
+    height: auto;
+}

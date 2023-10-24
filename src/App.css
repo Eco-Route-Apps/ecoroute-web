@@ -1,0 +1,28 @@
+body {
+    overflow-x: hidden;
+  }
+
+
+.appAnimation, .appBackdrop {
+	height: 400vh;
+}
+
+.appAnimation {
+    display: block;
+	position: relative;
+	z-index: 10;
+}
+
+  
+.appBackdrop {
+    background-position: bottom center;
+    background-size: auto 100vw;
+    background-repeat: repeat;
+    background-image: url(./assets/leafblurred.png);
+    width: 100%;
+    position: absolute;
+}
+
+.appBackdrop.parallax {
+    position: fixed;
+}
