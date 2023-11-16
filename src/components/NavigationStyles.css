@@ -1,0 +1,30 @@
+nav {
+    background-color: #E9E9E9;
+    font-family: 'Poppins';
+    font-size: 1rem;
+}
+
+.navlogo {
+    margin-bottom: 9px;
+    width: 90px;
+    height: auto;
+}
+
+.FeaturesBox, .FAQBox, .ContactBox{
+    padding: 5px 20px;
+
+
+
+}
+.FeaturesLink, .FAQLink, .ContactLink{
+    text-decoration: none;
+    color: black;
+}
+
+.active{
+    
+    padding: 5px 20px;
+    border-radius: 25px;
+    box-shadow: 5px 10px green;
+    color: black;
+}
