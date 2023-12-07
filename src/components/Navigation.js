@@ -12,7 +12,7 @@ import {
   Button} 
 from 'reactstrap';
 
-import logo from "../assets/logo-light.svg";
+import logo from "../assets/ERLogo-New.png";
 import googleplay from "../assets/googleplay.svg";
 import appstore from "../assets/appstore.svg";
 import './NavigationStyles.css';
@@ -41,7 +41,7 @@ const Navigation = () => {
                   </NavLink>
                 </NavItem>
                 <NavItem className='FAQBox'>
-                  <NavLink className="FAQLink" to="/FAQPage">
+                  <NavLink className="FAQLink" to="#FAQs">
                     FAQ
                   </NavLink>
                 </NavItem>
@@ -54,7 +54,7 @@ const Navigation = () => {
               src={appstore}
               alt="appstore-download"/>
               */}
-              <Button>
+              <Button href="https://forms.gle/7Z4NHpeEpz8Apdom6">
               Join our Beta Test
               </Button>
             </Collapse>

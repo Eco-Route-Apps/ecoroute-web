@@ -1,50 +1,62 @@
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import Navigation from './components/Navigation'
-import Header from './components/Headeralt'
-import Intro from './components/Intro'
-import Features from './components/Features'
+import Navigation from "./components/Navigation";
+import Header from "./components/Header";
+import Intro from "./components/Intro";
+import Features from "./components/Features";
 import Team from "./components/Team";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
 import Reviews from "./components/Reviews";
 import FAQs from "./components/FAQs";
 import CallToAction from "./components/CallToAction";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import TestFAQ from "./components/BetaTestFAQ";
 
 const App = () => {
-    return(
-        <div className="App">
-            <Navigation/>
+  return (
+    <div className="App">
+      <Navigation />
+      <div className="Content">
+        <Header />
+        <Intro />
+        <Features />
+        <Team />
+        <TestFAQ/>
+        {/*<Reviews />
+        <FAQs />*/}
+        <CallToAction />
+        <Footer />
+      </div>
+      {/*<Navigation/>
             <Parallax className="appAnimation"
             pages={2.3} 
             style={{ top: '0', left: '0' }}>
                 <ParallaxLayer 
                 offset={0} 
-                speed={0.5}>
+                speed={0.1}>
                     <div className='appBackdrop parallax'
                     id='background'>
                     </div>
                 </ParallaxLayer>
                 <ParallaxLayer 
                 offset={0} 
-                speed={1}>
+                speed={0.3}>
                     <div className='appBackdrop parallax'
                     id='skyline'>
                     </div>
                 </ParallaxLayer>
                 <ParallaxLayer 
                 offset={0} 
-                speed={1.5}>
+                speed={0.5}>
                     <div className='appBackdrop parallax'
                     id='park'>
                     </div>
                 </ParallaxLayer>
-                <ParallaxLayer
+    <ParallaxLayer
                 offset={0}
-                speed={3}>
+    speed={1}>
                     <Header/>
                     <Intro/>
                     <Features/>
@@ -54,16 +66,9 @@ const App = () => {
                     <CallToAction/>
                     <Footer/>
                 </ParallaxLayer>
-            </Parallax>
-
-
-        </div>
-    );
-}
+            </Parallax>*/}
+    </div>
+  );
+};
 
 export default App;
-
-
-
-
-
